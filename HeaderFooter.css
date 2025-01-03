@@ -1,0 +1,65 @@
+/* src/styles/HeaderFooter.css */
+/* src/styles/HeaderFooter.css */
+.header {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center;     /* Centers the content vertically if needed */
+    text-align: center;      /* Align text in the center */
+    padding: 20px;           /* Optional: add padding to the header */
+    flex-direction: column;  /* Stack the content and nav vertically */
+  }
+  
+  .header-content {
+    margin-bottom: 10px; /* Optional: adds space between title and nav */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .btn.btn-primary {
+    background-color: white;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn.btn-primary:hover {
+    background-color: white;
+  }
+  
+    
+  
+  .footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

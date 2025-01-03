@@ -1,0 +1,16 @@
+/* Set background for the entire page */
+body {
+  background-color: #f4f4f4; /* Light grey background */
+  background-size: cover; /* Ensure the background image covers the entire screen */
+  background-position: center; /* Center the image */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark text color for better contrast */
+}
+
+/* Optional: Add padding and center content */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
